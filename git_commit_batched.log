@@ -1,0 +1,1627 @@
+======================================
+Starting Batched Git commit process
+Date: Fri May  8 15:32:43 EDT 2026
+Batch size: 10 files per commit
+======================================
+Repository: /lustre/lrspec/ZTF_data/html_files
+error: unknown option `show-current'
+usage: git branch [options] [-r | -a] [--merged | --no-merged]
+   or: git branch [options] [-l] [-f] <branchname> [<start-point>]
+   or: git branch [options] [-r] (-d | -D) <branchname>...
+   or: git branch [options] (-m | -M) [<oldbranch>] <newbranch>
+
+Generic options
+    -v, --verbose         show hash and subject, give twice for upstream branch
+    -q, --quiet           suppress informational messages
+    -t, --track           set up tracking mode (see git-pull(1))
+    --set-upstream        change upstream info
+    -u, --set-upstream-to <upstream>
+                          change the upstream info
+    --unset-upstream      Unset the upstream info
+    --color[=<when>]      use colored output
+    -r, --remotes         act on remote-tracking branches
+    --contains <commit>   print only branches that contain the commit
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+Specific git-branch actions:
+    -a, --all             list both remote-tracking and local branches
+    -d, --delete          delete fully merged branch
+    -D                    delete branch (even if not merged)
+    -m, --move            move/rename a branch and its reflog
+    -M                    move/rename a branch, even if target exists
+    --list                list branch names
+    -l, --create-reflog   create the branch's reflog
+    --edit-description    edit the description for the branch
+    -f, --force           force creation (when already exists)
+    --no-merged <commit>  print only not merged branches
+    --merged <commit>     print only merged branches
+    --column[=<style>]    list branches in columns
+
+Branch: 
+
+Found 100 HTML files to process
+
+----------------------------------------
+Batch 1: Processing 10 files (files 1-10 of 100)
+----------------------------------------
+Committing: Add candidate HTML files batch 1 (1-10) - 2026-05-08 15:32
+[main bb11883] Add candidate HTML files batch 1 (1-10) - 2026-05-08 15:32
+ 9 files changed, 504 insertions(+), 63 deletions(-)
+✓ Batch 1 committed successfully
+Pushing batch 1...
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+To git@github.com:SHDaniels/rwe_lightcurves.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'git@github.com:SHDaniels/rwe_lightcurves.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first merge the remote changes (e.g.,
+hint: 'git pull') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+✗ Push failed for batch 1 - continuing anyway
+
+----------------------------------------
+Batch 2: Processing 10 files (files 11-20 of 100)
+----------------------------------------
+======================================
+Starting Batched Git commit process
+Date: Fri May  8 15:44:24 EDT 2026
+Batch size: 10 files per commit
+======================================
+Repository: /lustre/lrspec/ZTF_data/html_files
+error: unknown option `show-current'
+usage: git branch [options] [-r | -a] [--merged | --no-merged]
+   or: git branch [options] [-l] [-f] <branchname> [<start-point>]
+   or: git branch [options] [-r] (-d | -D) <branchname>...
+   or: git branch [options] (-m | -M) [<oldbranch>] <newbranch>
+
+Generic options
+    -v, --verbose         show hash and subject, give twice for upstream branch
+    -q, --quiet           suppress informational messages
+    -t, --track           set up tracking mode (see git-pull(1))
+    --set-upstream        change upstream info
+    -u, --set-upstream-to <upstream>
+                          change the upstream info
+    --unset-upstream      Unset the upstream info
+    --color[=<when>]      use colored output
+    -r, --remotes         act on remote-tracking branches
+    --contains <commit>   print only branches that contain the commit
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+Specific git-branch actions:
+    -a, --all             list both remote-tracking and local branches
+    -d, --delete          delete fully merged branch
+    -D                    delete branch (even if not merged)
+    -m, --move            move/rename a branch and its reflog
+    -M                    move/rename a branch, even if target exists
+    --list                list branch names
+    -l, --create-reflog   create the branch's reflog
+    --edit-description    edit the description for the branch
+    -f, --force           force creation (when already exists)
+    --no-merged <commit>  print only not merged branches
+    --merged <commit>     print only merged branches
+    --column[=<style>]    list branches in columns
+
+Branch: 
+
+Found 100 HTML files to process
+
+----------------------------------------
+Batch 1: Processing 10 files (files 1-10 of 100)
+----------------------------------------
+Committing: Add candidate HTML files batch 1 (1-10) - 2026-05-08 15:44
+# On branch main
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	deleted:    fits_files/ztf_20221020138241_000686_zi_c08_x_0001.fits.fz
+#	deleted:    fits_files/ztf_20221020148032_000686_zg_c03_x_0008.fits.fz
+#	deleted:    fits_files/ztf_20221020148032_000686_zg_c03_x_0011.fits.fz
+#	deleted:    fits_files/ztf_20221020148032_000686_zg_c03_x_0019.fits.fz
+#	deleted:    fits_files/ztf_20221020148032_000686_zg_c07_x_0016.fits.fz
+#	deleted:    fits_files/ztf_20221020148032_000686_zg_c11_x_0026.fits.fz
+#	deleted:    fits_files/ztf_20221020148032_000686_zg_c12_x_0017.fits.fz
+#	deleted:    fits_files/ztf_20221020148032_000686_zg_c16_x_0005.fits.fz
+#	deleted:    fits_files/ztf_20221020148032_000686_zg_c16_x_0014.fits.fz
+#	deleted:    fits_files/ztf_20221020154120_000640_zi_c13_x_0018.fits.fz
+#	deleted:    fits_files/ztf_20221020163819_000640_zg_c04_x_0007.fits.fz
+#	deleted:    fits_files/ztf_20221020163819_000640_zg_c04_x_0016.fits.fz
+#	deleted:    fits_files/ztf_20221020163819_000640_zg_c07_x_0000.fits.fz
+#	deleted:    fits_files/ztf_20221020163819_000640_zg_c10_x_0011.fits.fz
+#	deleted:    fits_files/ztf_20221020163819_000640_zg_c16_x_0025.fits.fz
+#	deleted:    fits_files/ztf_20221020294271_000449_zr_c09_x_0009.fits.fz
+#	deleted:    fits_files/ztf_20221020294271_000449_zr_c09_x_0011.fits.fz
+#	deleted:    fits_files/ztf_20221020294271_000449_zr_c09_x_0018.fits.fz
+#	deleted:    fits_files/ztf_20221020294271_000449_zr_c12_x_0023.fits.fz
+#	deleted:    fits_files/ztf_20221020294271_000449_zr_c14_x_0006.fits.fz
+#	deleted:    fits_files/ztf_20221020294271_000449_zr_c14_x_0017.fits.fz
+#	deleted:    fits_files/ztf_20221020297847_000449_zr_c01_x_0008.fits.fz
+#	deleted:    fits_files/ztf_20221020297847_000449_zr_c03_x_0004.fits.fz
+#	deleted:    fits_files/ztf_20221020297847_000449_zr_c09_x_0012.fits.fz
+#	deleted:    fits_files/ztf_20221020297847_000449_zr_c09_x_0016.fits.fz
+#	deleted:    fits_files/ztf_20221020297847_000449_zr_c14_x_0015.fits.fz
+#	deleted:    fits_files/ztf_20221020297847_000449_zr_c14_x_0019.fits.fz
+#	modified:   with_images/cand_19_with_images.html
+#	modified:   with_images/cand_1_with_images.html
+#	modified:   with_images/cand_20_with_images.html
+#	modified:   with_images/cand_21_with_images.html
+#	modified:   with_images/cand_22_with_images.html
+#	modified:   with_images/cand_23_with_images.html
+#	modified:   with_images/cand_24_with_images.html
+#	modified:   with_images/cand_25_with_images.html
+#	modified:   with_images/cand_26_with_images.html
+#	modified:   with_images/cand_27_with_images.html
+#	modified:   with_images/cand_28_with_images.html
+#	modified:   with_images/cand_29_with_images.html
+#	modified:   with_images/cand_2_with_images.html
+#	modified:   with_images/cand_30_with_images.html
+#	modified:   with_images/cand_3_with_images.html
+#	modified:   with_images/cand_4_with_images.html
+#	modified:   with_images/cand_5_with_images.html
+#	modified:   with_images/cand_6_with_images.html
+#	modified:   with_images/cand_7_with_images.html
+#	modified:   with_images/cand_8_with_images.html
+#	modified:   with_images/cand_9_with_images.html
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	fits_files/ztf_20221020138241_000686_zi_c04_x_0001.fits.fz
+#	fits_files/ztf_20221020138241_000686_zi_c04_x_0009.fits.fz
+#	fits_files/ztf_20221020138241_000686_zi_c15_x_0014.fits.fz
+#	fits_files/ztf_20221020138241_000686_zi_c16_x_0017.fits.fz
+#	fits_files/ztf_20221020141806_000686_zi_c14_x_0001.fits.fz
+#	fits_files/ztf_20221020141806_000686_zi_c14_x_0005.fits.fz
+#	fits_files/ztf_20221020141806_000686_zi_c14_x_0009.fits.fz
+#	fits_files/ztf_20221020141806_000686_zi_c14_x_0010.fits.fz
+#	fits_files/ztf_20221020141806_000686_zi_c14_x_0011.fits.fz
+#	fits_files/ztf_20221020141806_000686_zi_c14_x_0014.fits.fz
+#	fits_files/ztf_20221020141806_000686_zi_c14_x_0018.fits.fz
+#	fits_files/ztf_20221020141806_000686_zi_c14_x_0022.fits.fz
+#	fits_files/ztf_20221020141806_000686_zi_c14_x_0026.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c01_x_0015.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c01_x_0019.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c01_x_0029.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c02_x_0014.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c02_x_0019.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c02_x_0026.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c02_x_0028.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c02_x_0029.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c03_x_0026.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c03_x_0028.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c03_x_0029.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c04_x_0020.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c04_x_0028.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c04_x_0029.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c07_x_0000.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c07_x_0008.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c07_x_0011.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c07_x_0015.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c07_x_0027.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c09_x_0008.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c11_x_0029.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c16_x_0013.fits.fz
+#	fits_files/ztf_20221020154120_000640_zi_c03_x_0029.fits.fz
+#	fits_files/ztf_20221020154120_000640_zi_c04_x_0029.fits.fz
+#	fits_files/ztf_20221020157697_000640_zi_c01_x_0019.fits.fz
+#	fits_files/ztf_20221020157697_000640_zi_c04_x_0028.fits.fz
+#	fits_files/ztf_20221020157697_000640_zi_c04_x_0029.fits.fz
+#	fits_files/ztf_20221020157697_000640_zi_c12_x_0000.fits.fz
+#	fits_files/ztf_20221020163819_000640_zg_c04_x_0008.fits.fz
+#	fits_files/ztf_20221020163819_000640_zg_c04_x_0011.fits.fz
+#	fits_files/ztf_20221020163819_000640_zg_c10_x_0007.fits.fz
+#	fits_files/ztf_20221020163819_000640_zg_c12_x_0002.fits.fz
+#	fits_files/ztf_20221020163819_000640_zg_c12_x_0020.fits.fz
+#	fits_files/ztf_20221020163819_000640_zg_c13_x_0015.fits.fz
+#	fits_files/ztf_20221020163819_000640_zg_c14_x_0011.fits.fz
+#	fits_files/ztf_20221020163819_000640_zg_c14_x_0015.fits.fz
+#	fits_files/ztf_20221020163819_000640_zg_c16_x_0001.fits.fz
+#	fits_files/ztf_20221020163819_000640_zg_c16_x_0009.fits.fz
+#	fits_files/ztf_20221020163819_000640_zg_c16_x_0026.fits.fz
+#	fits_files/ztf_20221020294271_000449_zr_c14_x_0001.fits.fz
+#	fits_files/ztf_20221020297847_000449_zr_c01_x_0002.fits.fz
+#	fits_files/ztf_20221020297847_000449_zr_c01_x_0013.fits.fz
+#	fits_files/ztf_20221020297847_000449_zr_c10_x_0027.fits.fz
+#	fits_files/ztf_20221020297847_000449_zr_c14_x_0003.fits.fz
+#	fits_files/ztf_20221020297847_000449_zr_c14_x_0024.fits.fz
+#	fits_files/ztf_20221020297847_000449_zr_c16_x_0017.fits.fz
+#	git_commit_batched.log
+#	old/
+#	with_images/cand_31_with_images.html
+#	with_images/cand_32_with_images.html
+#	with_images/cand_33_with_images.html
+#	with_images/cand_34_with_images.html
+#	with_images/cand_35_with_images.html
+#	with_images/cand_36_with_images.html
+#	with_images/cand_37_with_images.html
+#	with_images/cand_38_with_images.html
+#	with_images/cand_39_with_images.html
+#	with_images/cand_40_with_images.html
+#	with_images/cand_41_with_images.html
+#	with_images/cand_42_with_images.html
+#	with_images/cand_43_with_images.html
+#	with_images/cand_44_with_images.html
+#	with_images/cand_45_with_images.html
+#	with_images/cand_46_with_images.html
+#	with_images/cand_47_with_images.html
+#	with_images/cand_48_with_images.html
+#	with_images/cand_49_with_images.html
+#	with_images/cand_50_with_images.html
+#	with_images/cand_51_with_images.html
+#	with_images/cand_52_with_images.html
+#	with_images/cand_53_with_images.html
+#	with_images/cand_54_with_images.html
+#	with_images/cand_55_with_images.html
+#	with_images/cand_56_with_images.html
+#	with_images/cand_57_with_images.html
+#	with_images/cand_58_with_images.html
+#	with_images/cand_59_with_images.html
+#	with_images/cand_60_with_images.html
+#	with_images/cand_61_with_images.html
+#	with_images/cand_62_with_images.html
+#	with_images/cand_63_with_images.html
+#	with_images/cand_64_with_images.html
+#	with_images/cand_65_with_images.html
+#	with_images/cand_66_with_images.html
+#	with_images/cand_67_with_images.html
+#	with_images/cand_68_with_images.html
+#	with_images/cand_69_with_images.html
+#	with_images/cand_70_with_images.html
+#	with_images/cand_71_with_images.html
+#	with_images/cand_72_with_images.html
+#	with_images/cand_73_with_images.html
+#	with_images/cand_74_with_images.html
+#	with_images/cand_75_with_images.html
+#	with_images/cand_76_with_images.html
+#	with_images/cand_77_with_images.html
+#	with_images/cand_78_with_images.html
+#	with_images/cand_79_with_images.html
+#	with_images/cand_80_with_images.html
+#	with_images/cand_81_with_images.html
+#	with_images/cand_82_with_images.html
+#	with_images/cand_83_with_images.html
+#	with_images/cand_84_with_images.html
+#	with_images/cand_85_with_images.html
+#	with_images/cand_86_with_images.html
+#	with_images/cand_87_with_images.html
+#	with_images/cand_88_with_images.html
+#	with_images/cand_89_with_images.html
+#	with_images/cand_90_with_images.html
+#	with_images/cand_91_with_images.html
+#	with_images/cand_92_with_images.html
+#	with_images/cand_93_with_images.html
+#	with_images/cand_94_with_images.html
+#	with_images/cand_95_with_images.html
+#	with_images/cand_96_with_images.html
+#	with_images/cand_97_with_images.html
+#	with_images/cand_98_with_images.html
+#	with_images/cand_99_with_images.html
+no changes added to commit (use "git add" and/or "git commit -a")
+✗ Commit failed for batch 1
+
+----------------------------------------
+Batch 2: Processing 10 files (files 11-20 of 100)
+----------------------------------------
+======================================
+Starting Batched Git commit process
+Date: Fri May  8 15:46:50 EDT 2026
+Batch size: 10 files per commit
+======================================
+Repository: /lustre/lrspec/ZTF_data/html_files
+Branch: main
+
+Pulling latest changes from remote...
+From github.com:SHDaniels/rwe_lightcurves
+ * branch            main       -> FETCH_HEAD
+Already up-to-date.
+✓ Pull successful
+
+Found 100 HTML files to process
+
+----------------------------------------
+Batch 1: Processing 10 files (files 1-10 of 100)
+----------------------------------------
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+Committing: Add candidate HTML files batch 1 (1-10) - 2026-05-08 15:46
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+✗ Commit failed for batch 1
+
+----------------------------------------
+Batch 2: Processing 10 files (files 11-20 of 100)
+----------------------------------------
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+Committing: Add candidate HTML files batch 2 (11-20) - 2026-05-08 15:46
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+✗ Commit failed for batch 2
+
+----------------------------------------
+Batch 3: Processing 10 files (files 21-30 of 100)
+----------------------------------------
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+Committing: Add candidate HTML files batch 3 (21-30) - 2026-05-08 15:46
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+✗ Commit failed for batch 3
+
+----------------------------------------
+Batch 4: Processing 10 files (files 31-40 of 100)
+----------------------------------------
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+Committing: Add candidate HTML files batch 4 (31-40) - 2026-05-08 15:46
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+✗ Commit failed for batch 4
+
+----------------------------------------
+Batch 5: Processing 10 files (files 41-50 of 100)
+----------------------------------------
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+Committing: Add candidate HTML files batch 5 (41-50) - 2026-05-08 15:46
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+✗ Commit failed for batch 5
+
+----------------------------------------
+Batch 6: Processing 10 files (files 51-60 of 100)
+----------------------------------------
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+Committing: Add candidate HTML files batch 6 (51-60) - 2026-05-08 15:47
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+✗ Commit failed for batch 6
+
+----------------------------------------
+Batch 7: Processing 10 files (files 61-70 of 100)
+----------------------------------------
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+Committing: Add candidate HTML files batch 7 (61-70) - 2026-05-08 15:47
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+✗ Commit failed for batch 7
+
+----------------------------------------
+Batch 8: Processing 10 files (files 71-80 of 100)
+----------------------------------------
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+Committing: Add candidate HTML files batch 8 (71-80) - 2026-05-08 15:47
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+✗ Commit failed for batch 8
+
+----------------------------------------
+Batch 9: Processing 10 files (files 81-90 of 100)
+----------------------------------------
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+Committing: Add candidate HTML files batch 9 (81-90) - 2026-05-08 15:47
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+✗ Commit failed for batch 9
+
+----------------------------------------
+Batch 10: Processing 10 files (files 91-100 of 100)
+----------------------------------------
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+Committing: Add candidate HTML files batch 10 (91-100) - 2026-05-08 15:47
+fatal: Unable to create '/lustre/lrspec/ZTF_data/html_files/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+✗ Commit failed for batch 10
+
+======================================
+Process completed at Fri May  8 15:47:12 EDT 2026
+Total files committed: 0 / 100
+======================================
+======================================
+Starting Batched Git commit process
+Date: Fri May  8 15:48:00 EDT 2026
+Batch size: 10 files per commit
+======================================
+Repository: /lustre/lrspec/ZTF_data/html_files
+Branch: main
+
+Pulling latest changes from remote...
+From github.com:SHDaniels/rwe_lightcurves
+ * branch            main       -> FETCH_HEAD
+Already up-to-date.
+✓ Pull successful
+
+Found 100 HTML files to process
+
+----------------------------------------
+Batch 1: Processing 10 files (files 1-10 of 100)
+----------------------------------------
+Committing: Add candidate HTML files batch 1 (1-10) - 2026-05-08 15:48
+[main cfbf1da] Add candidate HTML files batch 1 (1-10) - 2026-05-08 15:48
+ 1 file changed, 56 insertions(+), 7 deletions(-)
+✓ Batch 1 committed successfully
+Pushing batch 1...
+remote: To git@github.com:SHDaniels/rwe_lightcurves.git
+   ec7786e..cfbf1da  main -> main
+✓ Batch 1 pushed successfully
+
+----------------------------------------
+Batch 2: Processing 10 files (files 11-20 of 100)
+----------------------------------------
+fatal: Unable to write new index file
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+Committing: Add candidate HTML files batch 2 (11-20) - 2026-05-08 16:17
+fatal: index file smaller than expected
+✗ Commit failed for batch 2
+
+----------------------------------------
+Batch 3: Processing 10 files (files 21-30 of 100)
+----------------------------------------
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+Committing: Add candidate HTML files batch 3 (21-30) - 2026-05-08 16:17
+fatal: index file smaller than expected
+✗ Commit failed for batch 3
+
+----------------------------------------
+Batch 4: Processing 10 files (files 31-40 of 100)
+----------------------------------------
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+Committing: Add candidate HTML files batch 4 (31-40) - 2026-05-08 16:17
+fatal: index file smaller than expected
+✗ Commit failed for batch 4
+
+----------------------------------------
+Batch 5: Processing 10 files (files 41-50 of 100)
+----------------------------------------
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+Committing: Add candidate HTML files batch 5 (41-50) - 2026-05-08 16:17
+fatal: index file smaller than expected
+✗ Commit failed for batch 5
+
+----------------------------------------
+Batch 6: Processing 10 files (files 51-60 of 100)
+----------------------------------------
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+Committing: Add candidate HTML files batch 6 (51-60) - 2026-05-08 16:17
+fatal: index file smaller than expected
+✗ Commit failed for batch 6
+
+----------------------------------------
+Batch 7: Processing 10 files (files 61-70 of 100)
+----------------------------------------
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+Committing: Add candidate HTML files batch 7 (61-70) - 2026-05-08 16:17
+fatal: index file smaller than expected
+✗ Commit failed for batch 7
+
+----------------------------------------
+Batch 8: Processing 10 files (files 71-80 of 100)
+----------------------------------------
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+Committing: Add candidate HTML files batch 8 (71-80) - 2026-05-08 16:17
+fatal: index file smaller than expected
+✗ Commit failed for batch 8
+
+----------------------------------------
+Batch 9: Processing 10 files (files 81-90 of 100)
+----------------------------------------
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+Committing: Add candidate HTML files batch 9 (81-90) - 2026-05-08 16:17
+fatal: index file smaller than expected
+✗ Commit failed for batch 9
+
+----------------------------------------
+Batch 10: Processing 10 files (files 91-100 of 100)
+----------------------------------------
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+fatal: index file smaller than expected
+Committing: Add candidate HTML files batch 10 (91-100) - 2026-05-08 16:17
+fatal: index file smaller than expected
+✗ Commit failed for batch 10
+
+======================================
+Process completed at Fri May  8 16:17:20 EDT 2026
+Total files committed: 0 / 100
+======================================
+fatal: Unable to write new index file
+Committing: Add candidate HTML files batch 2 (11-20) - 2026-05-08 18:21
+[main b311306] Add candidate HTML files batch 2 (11-20) - 2026-05-08 18:21
+ 9 files changed, 504 insertions(+), 63 deletions(-)
+✓ Batch 2 committed successfully
+Pushing batch 2...
+remote: To git@github.com:SHDaniels/rwe_lightcurves.git
+   cfbf1da..b311306  main -> main
+✓ Batch 2 pushed successfully
+
+----------------------------------------
+Batch 3: Processing 10 files (files 21-30 of 100)
+----------------------------------------
+Committing: Add candidate HTML files batch 3 (21-30) - 2026-05-08 19:23
+[main 3679585] Add candidate HTML files batch 3 (21-30) - 2026-05-08 19:23
+ 10 files changed, 872 insertions(+), 28 deletions(-)
+ create mode 100644 with_images/cand_31_with_images.html
+ create mode 100644 with_images/cand_32_with_images.html
+ create mode 100644 with_images/cand_33_with_images.html
+ create mode 100644 with_images/cand_34_with_images.html
+ create mode 100644 with_images/cand_35_with_images.html
+ create mode 100644 with_images/cand_36_with_images.html
+✓ Batch 3 committed successfully
+Pushing batch 3...
+remote: warning: See https://gh.io/lfs for more information.[K
+remote: warning: File with_images/cand_34_with_images.html is 50.37 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB[K
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.[K
+To git@github.com:SHDaniels/rwe_lightcurves.git
+   b311306..3679585  main -> main
+✓ Batch 3 pushed successfully
+
+----------------------------------------
+Batch 4: Processing 10 files (files 31-40 of 100)
+----------------------------------------
+Committing: Add candidate HTML files batch 4 (31-40) - 2026-05-08 19:26
+[main f6039de] Add candidate HTML files batch 4 (31-40) - 2026-05-08 19:26
+ 10 files changed, 1028 insertions(+), 7 deletions(-)
+ create mode 100644 with_images/cand_37_with_images.html
+ create mode 100644 with_images/cand_38_with_images.html
+ create mode 100644 with_images/cand_39_with_images.html
+ create mode 100644 with_images/cand_40_with_images.html
+ create mode 100644 with_images/cand_41_with_images.html
+ create mode 100644 with_images/cand_42_with_images.html
+ create mode 100644 with_images/cand_43_with_images.html
+ create mode 100644 with_images/cand_44_with_images.html
+ create mode 100644 with_images/cand_45_with_images.html
+✓ Batch 4 committed successfully
+Pushing batch 4...
+remote: warning: See https://gh.io/lfs for more information.[K
+remote: warning: File with_images/cand_38_with_images.html is 50.68 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB[K
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.[K
+To git@github.com:SHDaniels/rwe_lightcurves.git
+   3679585..f6039de  main -> main
+✓ Batch 4 pushed successfully
+
+----------------------------------------
+Batch 5: Processing 10 files (files 41-50 of 100)
+----------------------------------------
+Committing: Add candidate HTML files batch 5 (41-50) - 2026-05-08 21:22
+[main 84c1da4] Add candidate HTML files batch 5 (41-50) - 2026-05-08 21:22
+ 10 files changed, 1028 insertions(+), 7 deletions(-)
+ create mode 100644 with_images/cand_46_with_images.html
+ create mode 100644 with_images/cand_47_with_images.html
+ create mode 100644 with_images/cand_48_with_images.html
+ create mode 100644 with_images/cand_49_with_images.html
+ create mode 100644 with_images/cand_50_with_images.html
+ create mode 100644 with_images/cand_51_with_images.html
+ create mode 100644 with_images/cand_52_with_images.html
+ create mode 100644 with_images/cand_53_with_images.html
+ create mode 100644 with_images/cand_54_with_images.html
+✓ Batch 5 committed successfully
+Pushing batch 5...
+remote: warning: See https://gh.io/lfs for more information.[K
+remote: warning: File with_images/cand_52_with_images.html is 50.67 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB[K
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.[K
+To git@github.com:SHDaniels/rwe_lightcurves.git
+   f6039de..84c1da4  main -> main
+✓ Batch 5 pushed successfully
+
+----------------------------------------
+Batch 6: Processing 10 files (files 51-60 of 100)
+----------------------------------------
+Committing: Add candidate HTML files batch 6 (51-60) - 2026-05-09 03:04
+[main d6af1c2] Add candidate HTML files batch 6 (51-60) - 2026-05-09 03:04
+ 10 files changed, 1028 insertions(+), 7 deletions(-)
+ create mode 100644 with_images/cand_55_with_images.html
+ create mode 100644 with_images/cand_56_with_images.html
+ create mode 100644 with_images/cand_57_with_images.html
+ create mode 100644 with_images/cand_58_with_images.html
+ create mode 100644 with_images/cand_59_with_images.html
+ create mode 100644 with_images/cand_60_with_images.html
+ create mode 100644 with_images/cand_61_with_images.html
+ create mode 100644 with_images/cand_62_with_images.html
+ create mode 100644 with_images/cand_63_with_images.html
+✓ Batch 6 committed successfully
+Pushing batch 6...
+remote: warning: See https://gh.io/lfs for more information.[K
+remote: warning: File with_images/cand_58_with_images.html is 50.64 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB[K
+remote: warning: File with_images/cand_59_with_images.html is 50.67 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB[K
+remote: warning: File with_images/cand_55_with_images.html is 50.37 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB[K
+remote: warning: File with_images/cand_56_with_images.html is 50.68 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB[K
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.[K
+To git@github.com:SHDaniels/rwe_lightcurves.git
+   84c1da4..d6af1c2  main -> main
+✓ Batch 6 pushed successfully
+
+----------------------------------------
+Batch 7: Processing 10 files (files 61-70 of 100)
+----------------------------------------
+Committing: Add candidate HTML files batch 7 (61-70) - 2026-05-09 03:07
+[main 83a2317] Add candidate HTML files batch 7 (61-70) - 2026-05-09 03:07
+ 10 files changed, 1028 insertions(+), 7 deletions(-)
+ create mode 100644 with_images/cand_64_with_images.html
+ create mode 100644 with_images/cand_65_with_images.html
+ create mode 100644 with_images/cand_66_with_images.html
+ create mode 100644 with_images/cand_67_with_images.html
+ create mode 100644 with_images/cand_68_with_images.html
+ create mode 100644 with_images/cand_69_with_images.html
+ create mode 100644 with_images/cand_70_with_images.html
+ create mode 100644 with_images/cand_71_with_images.html
+ create mode 100644 with_images/cand_72_with_images.html
+✓ Batch 7 committed successfully
+Pushing batch 7...
+remote: warning: See https://gh.io/lfs for more information.[K
+remote: warning: File with_images/cand_70_with_images.html is 50.95 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB[K
+remote: warning: File with_images/cand_66_with_images.html is 50.41 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB[K
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.[K
+To git@github.com:SHDaniels/rwe_lightcurves.git
+   d6af1c2..83a2317  main -> main
+✓ Batch 7 pushed successfully
+
+----------------------------------------
+Batch 8: Processing 10 files (files 71-80 of 100)
+----------------------------------------
+Committing: Add candidate HTML files batch 8 (71-80) - 2026-05-09 03:09
+[main 7cbe987] Add candidate HTML files batch 8 (71-80) - 2026-05-09 03:09
+ 10 files changed, 1028 insertions(+), 7 deletions(-)
+ create mode 100644 with_images/cand_73_with_images.html
+ create mode 100644 with_images/cand_74_with_images.html
+ create mode 100644 with_images/cand_75_with_images.html
+ create mode 100644 with_images/cand_76_with_images.html
+ create mode 100644 with_images/cand_77_with_images.html
+ create mode 100644 with_images/cand_78_with_images.html
+ create mode 100644 with_images/cand_79_with_images.html
+ create mode 100644 with_images/cand_80_with_images.html
+ create mode 100644 with_images/cand_81_with_images.html
+✓ Batch 8 committed successfully
+Pushing batch 8...
+remote: To git@github.com:SHDaniels/rwe_lightcurves.git
+   83a2317..7cbe987  main -> main
+✓ Batch 8 pushed successfully
+
+----------------------------------------
+Batch 9: Processing 10 files (files 81-90 of 100)
+----------------------------------------
+Committing: Add candidate HTML files batch 9 (81-90) - 2026-05-09 03:12
+[main 6ce76a2] Add candidate HTML files batch 9 (81-90) - 2026-05-09 03:12
+ 10 files changed, 1028 insertions(+), 7 deletions(-)
+ create mode 100644 with_images/cand_82_with_images.html
+ create mode 100644 with_images/cand_83_with_images.html
+ create mode 100644 with_images/cand_84_with_images.html
+ create mode 100644 with_images/cand_85_with_images.html
+ create mode 100644 with_images/cand_86_with_images.html
+ create mode 100644 with_images/cand_87_with_images.html
+ create mode 100644 with_images/cand_88_with_images.html
+ create mode 100644 with_images/cand_89_with_images.html
+ create mode 100644 with_images/cand_90_with_images.html
+✓ Batch 9 committed successfully
+Pushing batch 9...
+remote: warning: See https://gh.io/lfs for more information.[K
+remote: warning: File with_images/cand_89_with_images.html is 50.38 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB[K
+remote: warning: File with_images/cand_85_with_images.html is 50.68 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB[K
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.[K
+To git@github.com:SHDaniels/rwe_lightcurves.git
+   7cbe987..6ce76a2  main -> main
+✓ Batch 9 pushed successfully
+
+----------------------------------------
+Batch 10: Processing 10 files (files 91-100 of 100)
+----------------------------------------
+Committing: Add candidate HTML files batch 10 (91-100) - 2026-05-09 04:11
+[main 0307195] Add candidate HTML files batch 10 (91-100) - 2026-05-09 04:11
+ 10 files changed, 1028 insertions(+), 7 deletions(-)
+ create mode 100644 with_images/cand_91_with_images.html
+ create mode 100644 with_images/cand_92_with_images.html
+ create mode 100644 with_images/cand_93_with_images.html
+ create mode 100644 with_images/cand_94_with_images.html
+ create mode 100644 with_images/cand_95_with_images.html
+ create mode 100644 with_images/cand_96_with_images.html
+ create mode 100644 with_images/cand_97_with_images.html
+ create mode 100644 with_images/cand_98_with_images.html
+ create mode 100644 with_images/cand_99_with_images.html
+✓ Batch 10 committed successfully
+Pushing batch 10...
+remote: warning: See https://gh.io/lfs for more information.[K
+remote: warning: File with_images/cand_95_with_images.html is 50.90 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB[K
+remote: warning: File with_images/cand_97_with_images.html is 50.14 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB[K
+remote: warning: File with_images/cand_94_with_images.html is 50.68 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB[K
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.[K
+To git@github.com:SHDaniels/rwe_lightcurves.git
+   6ce76a2..0307195  main -> main
+✓ Batch 10 pushed successfully
+
+======================================
+Process completed at Sat May  9 04:14:20 EDT 2026
+Total files committed: 100 / 100
+======================================
+======================================
+Starting Batched Git commit process
+Date: Sat May  9 14:09:56 EDT 2026
+Batch size: 10 files per commit
+======================================
+Repository: /lustre/lrspec/ZTF_data/html_files
+Branch: main
+
+Pulling latest changes from remote...
+From github.com:SHDaniels/rwe_lightcurves
+ * branch            main       -> FETCH_HEAD
+Already up-to-date.
+✓ Pull successful
+
+Found 1 HTML files to process
+
+----------------------------------------
+Batch 1: Processing 1 files (files 1-1 of 1)
+----------------------------------------
+fatal: pathspec 'fits_files/*.html' did not match any files
+Committing: Add candidate HTML files batch 1 (1-1) - 2026-05-09 14:09
+# On branch main
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	deleted:    fits_files/ztf_20221020138241_000686_zi_c08_x_0001.fits.fz
+#	deleted:    fits_files/ztf_20221020148032_000686_zg_c03_x_0008.fits.fz
+#	deleted:    fits_files/ztf_20221020148032_000686_zg_c03_x_0011.fits.fz
+#	deleted:    fits_files/ztf_20221020148032_000686_zg_c03_x_0019.fits.fz
+#	deleted:    fits_files/ztf_20221020148032_000686_zg_c07_x_0016.fits.fz
+#	deleted:    fits_files/ztf_20221020148032_000686_zg_c11_x_0026.fits.fz
+#	deleted:    fits_files/ztf_20221020148032_000686_zg_c12_x_0017.fits.fz
+#	deleted:    fits_files/ztf_20221020148032_000686_zg_c16_x_0005.fits.fz
+#	deleted:    fits_files/ztf_20221020148032_000686_zg_c16_x_0014.fits.fz
+#	deleted:    fits_files/ztf_20221020154120_000640_zi_c13_x_0018.fits.fz
+#	deleted:    fits_files/ztf_20221020163819_000640_zg_c04_x_0007.fits.fz
+#	deleted:    fits_files/ztf_20221020163819_000640_zg_c04_x_0016.fits.fz
+#	deleted:    fits_files/ztf_20221020163819_000640_zg_c07_x_0000.fits.fz
+#	deleted:    fits_files/ztf_20221020163819_000640_zg_c10_x_0011.fits.fz
+#	deleted:    fits_files/ztf_20221020163819_000640_zg_c16_x_0025.fits.fz
+#	deleted:    fits_files/ztf_20221020294271_000449_zr_c09_x_0009.fits.fz
+#	deleted:    fits_files/ztf_20221020294271_000449_zr_c09_x_0011.fits.fz
+#	deleted:    fits_files/ztf_20221020294271_000449_zr_c09_x_0018.fits.fz
+#	deleted:    fits_files/ztf_20221020294271_000449_zr_c12_x_0023.fits.fz
+#	deleted:    fits_files/ztf_20221020294271_000449_zr_c14_x_0006.fits.fz
+#	deleted:    fits_files/ztf_20221020294271_000449_zr_c14_x_0017.fits.fz
+#	deleted:    fits_files/ztf_20221020297847_000449_zr_c01_x_0008.fits.fz
+#	deleted:    fits_files/ztf_20221020297847_000449_zr_c03_x_0004.fits.fz
+#	deleted:    fits_files/ztf_20221020297847_000449_zr_c09_x_0012.fits.fz
+#	deleted:    fits_files/ztf_20221020297847_000449_zr_c09_x_0016.fits.fz
+#	deleted:    fits_files/ztf_20221020297847_000449_zr_c14_x_0015.fits.fz
+#	deleted:    fits_files/ztf_20221020297847_000449_zr_c14_x_0019.fits.fz
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	fits_files/ztf_20221020138241_000686_zi_c04_x_0001.fits.fz
+#	fits_files/ztf_20221020138241_000686_zi_c04_x_0009.fits.fz
+#	fits_files/ztf_20221020138241_000686_zi_c15_x_0014.fits.fz
+#	fits_files/ztf_20221020138241_000686_zi_c16_x_0017.fits.fz
+#	fits_files/ztf_20221020141806_000686_zi_c14_x_0001.fits.fz
+#	fits_files/ztf_20221020141806_000686_zi_c14_x_0005.fits.fz
+#	fits_files/ztf_20221020141806_000686_zi_c14_x_0009.fits.fz
+#	fits_files/ztf_20221020141806_000686_zi_c14_x_0010.fits.fz
+#	fits_files/ztf_20221020141806_000686_zi_c14_x_0011.fits.fz
+#	fits_files/ztf_20221020141806_000686_zi_c14_x_0014.fits.fz
+#	fits_files/ztf_20221020141806_000686_zi_c14_x_0018.fits.fz
+#	fits_files/ztf_20221020141806_000686_zi_c14_x_0022.fits.fz
+#	fits_files/ztf_20221020141806_000686_zi_c14_x_0026.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c01_x_0015.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c01_x_0019.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c01_x_0029.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c02_x_0014.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c02_x_0019.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c02_x_0026.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c02_x_0028.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c02_x_0029.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c03_x_0026.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c03_x_0028.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c03_x_0029.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c04_x_0020.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c04_x_0028.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c04_x_0029.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c07_x_0000.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c07_x_0008.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c07_x_0011.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c07_x_0015.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c07_x_0027.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c09_x_0008.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c11_x_0029.fits.fz
+#	fits_files/ztf_20221020148032_000686_zg_c16_x_0013.fits.fz
+#	fits_files/ztf_20221020154120_000640_zi_c03_x_0029.fits.fz
+#	fits_files/ztf_20221020154120_000640_zi_c04_x_0029.fits.fz
+#	fits_files/ztf_20221020157697_000640_zi_c01_x_0019.fits.fz
+#	fits_files/ztf_20221020157697_000640_zi_c04_x_0028.fits.fz
+#	fits_files/ztf_20221020157697_000640_zi_c04_x_0029.fits.fz
+#	fits_files/ztf_20221020157697_000640_zi_c12_x_0000.fits.fz
+#	fits_files/ztf_20221020163819_000640_zg_c04_x_0008.fits.fz
+#	fits_files/ztf_20221020163819_000640_zg_c04_x_0011.fits.fz
+#	fits_files/ztf_20221020163819_000640_zg_c10_x_0007.fits.fz
+#	fits_files/ztf_20221020163819_000640_zg_c12_x_0002.fits.fz
+#	fits_files/ztf_20221020163819_000640_zg_c12_x_0020.fits.fz
+#	fits_files/ztf_20221020163819_000640_zg_c13_x_0015.fits.fz
+#	fits_files/ztf_20221020163819_000640_zg_c14_x_0011.fits.fz
+#	fits_files/ztf_20221020163819_000640_zg_c14_x_0015.fits.fz
+#	fits_files/ztf_20221020163819_000640_zg_c16_x_0001.fits.fz
+#	fits_files/ztf_20221020163819_000640_zg_c16_x_0009.fits.fz
+#	fits_files/ztf_20221020163819_000640_zg_c16_x_0026.fits.fz
+#	fits_files/ztf_20221020294271_000449_zr_c14_x_0001.fits.fz
+#	fits_files/ztf_20221020297847_000449_zr_c01_x_0002.fits.fz
+#	fits_files/ztf_20221020297847_000449_zr_c01_x_0013.fits.fz
+#	fits_files/ztf_20221020297847_000449_zr_c10_x_0027.fits.fz
+#	fits_files/ztf_20221020297847_000449_zr_c14_x_0003.fits.fz
+#	fits_files/ztf_20221020297847_000449_zr_c14_x_0024.fits.fz
+#	fits_files/ztf_20221020297847_000449_zr_c16_x_0017.fits.fz
+#	git_commit_batched.log
+#	old/
+no changes added to commit (use "git add" and/or "git commit -a")
+✗ Commit failed for batch 1
+
+======================================
+Process completed at Sat May  9 14:10:03 EDT 2026
+Total files committed: 0 / 1
+======================================
+======================================
+Starting Batched Git commit process
+Date: Sat May  9 14:11:37 EDT 2026
+Batch size: 10 files per commit
+======================================
+Repository: /lustre/lrspec/ZTF_data/html_files
+Branch: main
+
+Pulling latest changes from remote...
+From github.com:SHDaniels/rwe_lightcurves
+ * branch            main       -> FETCH_HEAD
+Already up-to-date.
+✓ Pull successful
+
+Found 61 fits files to process
+
+----------------------------------------
+Batch 1: Processing 10 files (files 1-10 of 61)
+----------------------------------------
+Committing: Add candidate HTML files batch 1 (1-10) - 2026-05-09 14:11
+[main 24797be] Add candidate HTML files batch 1 (1-10) - 2026-05-09 14:11
+ 10 files changed, 1440963 insertions(+)
+ create mode 100644 fits_files/ztf_20221020138241_000686_zi_c04_x_0001.fits.fz
+ create mode 100644 fits_files/ztf_20221020138241_000686_zi_c04_x_0009.fits.fz
+ create mode 100644 fits_files/ztf_20221020138241_000686_zi_c15_x_0014.fits.fz
+ create mode 100644 fits_files/ztf_20221020138241_000686_zi_c16_x_0017.fits.fz
+ create mode 100644 fits_files/ztf_20221020141806_000686_zi_c14_x_0001.fits.fz
+ create mode 100644 fits_files/ztf_20221020141806_000686_zi_c14_x_0005.fits.fz
+ create mode 100644 fits_files/ztf_20221020141806_000686_zi_c14_x_0009.fits.fz
+ create mode 100644 fits_files/ztf_20221020141806_000686_zi_c14_x_0010.fits.fz
+ create mode 100644 fits_files/ztf_20221020141806_000686_zi_c14_x_0011.fits.fz
+ create mode 100644 fits_files/ztf_20221020141806_000686_zi_c14_x_0014.fits.fz
+✓ Batch 1 committed successfully
+Pushing batch 1...
+remote: To git@github.com:SHDaniels/rwe_lightcurves.git
+   0307195..24797be  main -> main
+✓ Batch 1 pushed successfully
+
+----------------------------------------
+Batch 2: Processing 10 files (files 11-20 of 61)
+----------------------------------------
+Committing: Add candidate HTML files batch 2 (11-20) - 2026-05-09 16:22
+[main 37f4b22] Add candidate HTML files batch 2 (11-20) - 2026-05-09 16:22
+ 9 files changed, 1413257 insertions(+)
+ create mode 100644 fits_files/ztf_20221020141806_000686_zi_c14_x_0018.fits.fz
+ create mode 100644 fits_files/ztf_20221020141806_000686_zi_c14_x_0022.fits.fz
+ create mode 100644 fits_files/ztf_20221020141806_000686_zi_c14_x_0026.fits.fz
+ create mode 100644 fits_files/ztf_20221020148032_000686_zg_c01_x_0015.fits.fz
+ create mode 100644 fits_files/ztf_20221020148032_000686_zg_c01_x_0019.fits.fz
+ create mode 100644 fits_files/ztf_20221020148032_000686_zg_c01_x_0029.fits.fz
+ create mode 100644 fits_files/ztf_20221020148032_000686_zg_c02_x_0014.fits.fz
+ create mode 100644 fits_files/ztf_20221020148032_000686_zg_c02_x_0019.fits.fz
+ create mode 100644 fits_files/ztf_20221020148032_000686_zg_c02_x_0026.fits.fz
+✓ Batch 2 committed successfully
+Pushing batch 2...
+remote: To git@github.com:SHDaniels/rwe_lightcurves.git
+   24797be..37f4b22  main -> main
+✓ Batch 2 pushed successfully
+
+----------------------------------------
+Batch 3: Processing 10 files (files 21-30 of 61)
+----------------------------------------
+Committing: Add candidate HTML files batch 3 (21-30) - 2026-05-09 19:54
+[main c8d135c] Add candidate HTML files batch 3 (21-30) - 2026-05-09 19:54
+ 9 files changed, 1431282 insertions(+)
+ create mode 100644 fits_files/ztf_20221020148032_000686_zg_c02_x_0028.fits.fz
+ create mode 100644 fits_files/ztf_20221020148032_000686_zg_c02_x_0029.fits.fz
+ create mode 100644 fits_files/ztf_20221020148032_000686_zg_c03_x_0026.fits.fz
+ create mode 100644 fits_files/ztf_20221020148032_000686_zg_c03_x_0028.fits.fz
+ create mode 100644 fits_files/ztf_20221020148032_000686_zg_c03_x_0029.fits.fz
+ create mode 100644 fits_files/ztf_20221020148032_000686_zg_c04_x_0020.fits.fz
+ create mode 100644 fits_files/ztf_20221020148032_000686_zg_c04_x_0028.fits.fz
+ create mode 100644 fits_files/ztf_20221020148032_000686_zg_c04_x_0029.fits.fz
+ create mode 100644 fits_files/ztf_20221020148032_000686_zg_c07_x_0000.fits.fz
+✓ Batch 3 committed successfully
+Pushing batch 3...
+remote: To git@github.com:SHDaniels/rwe_lightcurves.git
+   37f4b22..c8d135c  main -> main
+✓ Batch 3 pushed successfully
+
+----------------------------------------
+Batch 4: Processing 10 files (files 31-40 of 61)
+----------------------------------------
+Committing: Add candidate HTML files batch 4 (31-40) - 2026-05-10 00:25
+[main 3b987f6] Add candidate HTML files batch 4 (31-40) - 2026-05-10 00:25
+ 10 files changed, 1557734 insertions(+)
+ create mode 100644 fits_files/ztf_20221020148032_000686_zg_c07_x_0008.fits.fz
+ create mode 100644 fits_files/ztf_20221020148032_000686_zg_c07_x_0011.fits.fz
+ create mode 100644 fits_files/ztf_20221020148032_000686_zg_c07_x_0015.fits.fz
+ create mode 100644 fits_files/ztf_20221020148032_000686_zg_c07_x_0027.fits.fz
+ create mode 100644 fits_files/ztf_20221020148032_000686_zg_c09_x_0008.fits.fz
+ create mode 100644 fits_files/ztf_20221020148032_000686_zg_c11_x_0029.fits.fz
+ create mode 100644 fits_files/ztf_20221020148032_000686_zg_c16_x_0013.fits.fz
+ create mode 100644 fits_files/ztf_20221020154120_000640_zi_c03_x_0029.fits.fz
+ create mode 100644 fits_files/ztf_20221020154120_000640_zi_c04_x_0029.fits.fz
+ create mode 100644 fits_files/ztf_20221020157697_000640_zi_c01_x_0019.fits.fz
+✓ Batch 4 committed successfully
+Pushing batch 4...
+remote: To git@github.com:SHDaniels/rwe_lightcurves.git
+   c8d135c..3b987f6  main -> main
+✓ Batch 4 pushed successfully
+
+----------------------------------------
+Batch 5: Processing 10 files (files 41-50 of 61)
+----------------------------------------
+Committing: Add candidate HTML files batch 5 (41-50) - 2026-05-10 00:47
+[main c6b12ae] Add candidate HTML files batch 5 (41-50) - 2026-05-10 00:47
+ 10 files changed, 1576982 insertions(+)
+ create mode 100644 fits_files/ztf_20221020157697_000640_zi_c04_x_0028.fits.fz
+ create mode 100644 fits_files/ztf_20221020157697_000640_zi_c04_x_0029.fits.fz
+ create mode 100644 fits_files/ztf_20221020157697_000640_zi_c12_x_0000.fits.fz
+ create mode 100644 fits_files/ztf_20221020163819_000640_zg_c04_x_0008.fits.fz
+ create mode 100644 fits_files/ztf_20221020163819_000640_zg_c04_x_0011.fits.fz
+ create mode 100644 fits_files/ztf_20221020163819_000640_zg_c10_x_0007.fits.fz
+ create mode 100644 fits_files/ztf_20221020163819_000640_zg_c12_x_0002.fits.fz
+ create mode 100644 fits_files/ztf_20221020163819_000640_zg_c12_x_0020.fits.fz
+ create mode 100644 fits_files/ztf_20221020163819_000640_zg_c13_x_0015.fits.fz
+ create mode 100644 fits_files/ztf_20221020163819_000640_zg_c14_x_0011.fits.fz
+✓ Batch 5 committed successfully
+Pushing batch 5...
+remote: To git@github.com:SHDaniels/rwe_lightcurves.git
+   3b987f6..c6b12ae  main -> main
+✓ Batch 5 pushed successfully
+
+----------------------------------------
+Batch 6: Processing 10 files (files 51-60 of 61)
+----------------------------------------
+Committing: Add candidate HTML files batch 6 (51-60) - 2026-05-10 01:25
+[main 29d1720] Add candidate HTML files batch 6 (51-60) - 2026-05-10 01:25
+ 10 files changed, 1512728 insertions(+)
+ create mode 100644 fits_files/ztf_20221020163819_000640_zg_c14_x_0015.fits.fz
+ create mode 100644 fits_files/ztf_20221020163819_000640_zg_c16_x_0001.fits.fz
+ create mode 100644 fits_files/ztf_20221020163819_000640_zg_c16_x_0009.fits.fz
+ create mode 100644 fits_files/ztf_20221020163819_000640_zg_c16_x_0026.fits.fz
+ create mode 100644 fits_files/ztf_20221020294271_000449_zr_c14_x_0001.fits.fz
+ create mode 100644 fits_files/ztf_20221020297847_000449_zr_c01_x_0002.fits.fz
+ create mode 100644 fits_files/ztf_20221020297847_000449_zr_c01_x_0013.fits.fz
+ create mode 100644 fits_files/ztf_20221020297847_000449_zr_c10_x_0027.fits.fz
+ create mode 100644 fits_files/ztf_20221020297847_000449_zr_c14_x_0003.fits.fz
+ create mode 100644 fits_files/ztf_20221020297847_000449_zr_c14_x_0024.fits.fz
+✓ Batch 6 committed successfully
+Pushing batch 6...
+remote: To git@github.com:SHDaniels/rwe_lightcurves.git
+   c6b12ae..29d1720  main -> main
+✓ Batch 6 pushed successfully
+
+----------------------------------------
+Batch 7: Processing 1 files (files 61-61 of 61)
+----------------------------------------
+Committing: Add candidate HTML files batch 7 (61-61) - 2026-05-10 01:47
+[main 90ac490] Add candidate HTML files batch 7 (61-61) - 2026-05-10 01:47
+ 1 file changed, 151074 insertions(+)
+ create mode 100644 fits_files/ztf_20221020297847_000449_zr_c16_x_0017.fits.fz
+✓ Batch 7 committed successfully
+Pushing batch 7...
+remote: To git@github.com:SHDaniels/rwe_lightcurves.git
+   29d1720..90ac490  main -> main
+✓ Batch 7 pushed successfully
+
+======================================
+Process completed at Sun May 10 01:47:53 EDT 2026
+Total files committed: 61 / 61
+======================================
