@@ -1,6 +1,6 @@
 # rwe_lightcurves
 
-YOU CAN VIEW THESE FILES ONLINE! replace X with the candidate you're interested in: 
-https://shdaniels.github.io/rwe_lightcurves/with_images/cand_X_with_images.html
+YOU CAN VIEW THESE FILES ONLINE! starting with the first candidate and using the buttons to navigate:
+https://shdaniels.github.io/rwe_lightcurves/with_images/cand_0_with_images.html
 
-There are 98 total candidates indexed from 0-97.
+There are 100 total candidates indexed from 0-99.
